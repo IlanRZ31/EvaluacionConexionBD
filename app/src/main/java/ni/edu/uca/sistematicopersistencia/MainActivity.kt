@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
                     )
 
                     agregarProducto(room, producto)
+                    Toast.makeText(this@MainActivity, "Guardado Exitoso", Toast.LENGTH_LONG).show()
 
                 }
             }

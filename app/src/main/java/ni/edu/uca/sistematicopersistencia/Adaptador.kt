@@ -39,8 +39,6 @@ class Adaptador (
         var etNombre = itemView.findViewById<TextView>(R.id.etNombre)
         var etPrecio = itemView.findViewById<TextView>(R.id.etPrecio)
         var etExistencia = itemView.findViewById<TextView>(R.id.etExistencia)
-
-        var constrain = itemView.findViewById<ConstraintLayout>(R.id.rcproducto)
     }
 
 
